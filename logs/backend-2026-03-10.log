@@ -1,0 +1,128 @@
+2026-03-10 11:17:56 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 11:17:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown | Graceful shutdown complete
+2026-03-10 11:17:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 11:17:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2026-03-10 11:17:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2026-03-10 11:18:01 [main] INFO  com.vtc.logging.LoggingApplication | Starting LoggingApplication using Java 17.0.12 with PID 14084 (C:\Users\Tranaf\Desktop\SAPO\omni-services\Logging\target\classes started by Tranaf in C:\Users\Tranaf\Desktop\SAPO\omni-services\Logging)
+2026-03-10 11:18:01 [main] INFO  com.vtc.logging.LoggingApplication | No active profile set, falling back to 1 default profile: "default"
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 11:18:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-03-10 11:18:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer | Tomcat initialized with port 8080 (http)
+2026-03-10 11:18:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 11:18:02 [main] INFO  o.a.catalina.core.StandardService | Starting service [Tomcat]
+2026-03-10 11:18:02 [main] INFO  o.a.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 11:18:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2026-03-10 11:18:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 1170 ms
+2026-03-10 11:18:03 [main] INFO  o.h.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 11:18:03 [main] INFO  org.hibernate.Version | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-10 11:18:03 [main] INFO  o.h.c.i.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2026-03-10 11:18:03 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 11:18:03 [main] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2026-03-10 11:18:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@797f97e3
+2026-03-10 11:18:03 [main] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2026-03-10 11:18:04 [main] INFO  o.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-10 11:18:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 11:18:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 11:18:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 11:18:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer | Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 11:18:05 [main] INFO  com.vtc.logging.LoggingApplication | Started LoggingApplication in 4.312 seconds (process running for 5.053)
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet | Completed initialization in 1 ms
+2026-03-10 11:18:48 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: OPTIONS /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: OPTIONS /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games
+2026-03-10 11:18:48 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games
+2026-03-10 11:18:48 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: OPTIONS /logs -> 200 (2 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: OPTIONS /logs -> 200 (2 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  com.vtc.logging.service.GameService | Filtering games with platform=null status=null
+2026-03-10 11:18:48 [http-nio-8080-exec-7] INFO  com.vtc.logging.service.GameService | Filtering games with platform=null status=null
+2026-03-10 11:18:48 [http-nio-8080-exec-7] INFO  com.vtc.logging.service.GameService | Found 8 games
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  com.vtc.logging.service.GameService | Found 8 games
+2026-03-10 11:18:48 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (100 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (100 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games -> 200 (152 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games -> 200 (152 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:18:48 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (0 ms)
+2026-03-10 11:18:48 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (0 ms)
+2026-03-10 11:20:49 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games/1
+2026-03-10 11:20:49 [http-nio-8080-exec-3] INFO  com.vtc.logging.service.GameService | Fetching game with id=1
+2026-03-10 11:20:49 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games/1 -> 200 (20 ms)
+2026-03-10 11:20:49 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:20:49 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (2 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: OPTIONS /games/1
+2026-03-10 11:20:57 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: OPTIONS /games/1 -> 200 (1 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: PUT /games/1
+2026-03-10 11:20:57 [http-nio-8080-exec-6] INFO  com.vtc.logging.service.GameService | Updating game id=1
+2026-03-10 11:20:57 [http-nio-8080-exec-6] INFO  com.vtc.logging.service.GameService | Game updated successfully id=1
+2026-03-10 11:20:57 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: PUT /games/1 -> 200 (60 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:20:57 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:20:57 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (2 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games
+2026-03-10 11:20:57 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (3 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-1] INFO  com.vtc.logging.service.GameService | Filtering games with platform=null status=null
+2026-03-10 11:20:57 [http-nio-8080-exec-1] INFO  com.vtc.logging.service.GameService | Found 8 games
+2026-03-10 11:20:57 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games -> 200 (8 ms)
+2026-03-10 11:20:57 [http-nio-8080-exec-5] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:20:57 [http-nio-8080-exec-5] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (3 ms)
+2026-03-10 11:20:59 [http-nio-8080-exec-10] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games/14
+2026-03-10 11:20:59 [http-nio-8080-exec-10] INFO  com.vtc.logging.service.GameService | Fetching game with id=14
+2026-03-10 11:20:59 [http-nio-8080-exec-10] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games/14 -> 200 (10 ms)
+2026-03-10 11:20:59 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:20:59 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (2 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: OPTIONS /games/14
+2026-03-10 11:21:01 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: OPTIONS /games/14 -> 200 (0 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: DELETE /games/14
+2026-03-10 11:21:01 [http-nio-8080-exec-9] WARN  com.vtc.logging.service.GameService | Deleting game with id=14
+2026-03-10 11:21:01 [http-nio-8080-exec-9] INFO  com.vtc.logging.service.GameService | Game deleted successfully id=14
+2026-03-10 11:21:01 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: DELETE /games/14 -> 200 (23 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:01 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:01 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games
+2026-03-10 11:21:01 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-6] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-8] INFO  com.vtc.logging.service.GameService | Filtering games with platform=null status=null
+2026-03-10 11:21:01 [http-nio-8080-exec-8] INFO  com.vtc.logging.service.GameService | Found 7 games
+2026-03-10 11:21:01 [http-nio-8080-exec-8] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games -> 200 (8 ms)
+2026-03-10 11:21:01 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:01 [http-nio-8080-exec-2] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:03 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:03 [http-nio-8080-exec-1] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-5] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: OPTIONS /games
+2026-03-10 11:21:16 [http-nio-8080-exec-5] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: OPTIONS /games -> 200 (0 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-10] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /games
+2026-03-10 11:21:16 [http-nio-8080-exec-10] INFO  com.vtc.logging.service.GameService | Adding new game: name=Test1, platform=MOBILE, status=ONGOING
+2026-03-10 11:21:16 [http-nio-8080-exec-10] INFO  com.vtc.logging.service.GameService | Game created successfully with id=15
+2026-03-10 11:21:16 [http-nio-8080-exec-10] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /games -> 200 (23 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:16 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:16 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: GET /games
+2026-03-10 11:21:16 [http-nio-8080-exec-3] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-4] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-9] INFO  com.vtc.logging.service.GameService | Filtering games with platform=null status=null
+2026-03-10 11:21:16 [http-nio-8080-exec-9] INFO  com.vtc.logging.service.GameService | Found 8 games
+2026-03-10 11:21:16 [http-nio-8080-exec-9] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: GET /games -> 200 (8 ms)
+2026-03-10 11:21:16 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Incoming request: POST /logs
+2026-03-10 11:21:16 [http-nio-8080-exec-7] INFO  c.v.l.c.RequestLoggingInterceptor | Completed request: POST /logs -> 200 (1 ms)
+2026-03-10 11:21:32 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 11:21:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown | Graceful shutdown complete
+2026-03-10 11:21:32 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 11:21:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2026-03-10 11:21:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.

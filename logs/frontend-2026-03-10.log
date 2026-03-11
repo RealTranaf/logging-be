@@ -1,0 +1,16 @@
+2026-03-10 11:18:48 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetching game list
+2026-03-10 11:18:48 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetching game list
+2026-03-10 11:18:48 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetched 8 games
+2026-03-10 11:18:48 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetched 8 games
+2026-03-10 11:20:49 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Opened edit game modal for game League of Legends (Sửa)
+2026-03-10 11:20:57 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Game updated: League of Legends (Sửa lại)
+2026-03-10 11:20:57 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetching game list
+2026-03-10 11:20:57 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetched 8 games
+2026-03-10 11:20:59 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Opened edit game modal for game Testing123
+2026-03-10 11:21:01 [FRONTEND] WARN  frontendLogger | http://localhost:3000/ | Game deleted with id 14
+2026-03-10 11:21:01 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetching game list
+2026-03-10 11:21:01 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetched 7 games
+2026-03-10 11:21:03 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Opened add game modal
+2026-03-10 11:21:16 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetching game list
+2026-03-10 11:21:16 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Game added: Test1
+2026-03-10 11:21:16 [FRONTEND] INFO  frontendLogger | http://localhost:3000/ | Fetched 8 games
