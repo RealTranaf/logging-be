@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
++@CrossOrigin(origins = {"http://localhost:3000","http://35.222.18.171:3000"})
 
 @RestController
 @RequestMapping("/logs")
