@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-+@CrossOrigin(origins = {"http://localhost:3000","http://35.222.18.171:3000"})
++@CrossOrigin(origins = {"http://localhost:3000","http://35.222.18.171:3000", "http://instance-20260224-064829.tailca11db.ts.net:3000"})
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/games")
